@@ -1,0 +1,983 @@
+{
+  "id": "ee6ffe59-8e2a-4a17-b76e-55392822f8c9",
+  "version": "2.0",
+  "name": "Untitled project",
+  "url": "https://www.saucedemo.com/",
+  "tests": [
+    {
+      "id": "e2780b2c-1da0-4e5f-926d-e62355ffc433",
+      "name": "Untitled test",
+      "commands": [
+        {
+          "id": "ea3eefee-81b2-425d-8e1a-b07a7352b794",
+          "comment": "",
+          "command": "open",
+          "target": "/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "eddb0894-18dc-4f6c-8c93-d0129831fa87",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"username\"]",
+          "targets": [
+            [
+              "css=[data-test=\"username\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=user-name",
+              "id"
+            ],
+            [
+              "name=user-name",
+              "name"
+            ],
+            [
+              "css=#user-name",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='user-name']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='login_button_container']/div/form/div[1]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "433e2c61-2aa6-498f-bf9f-d5b4d9dba0a0",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"login-credentials\"]",
+          "targets": [
+            [
+              "css=[data-test=\"login-credentials\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=login_credentials",
+              "id"
+            ],
+            [
+              "xpath=//div[@id='login_credentials']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div[2]/div/div[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div[2]/div/div[1]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c6ca1a63-6990-44cf-a8b2-099fd9c64263",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "css=[data-test=\"login-credentials\"]",
+          "targets": [
+            [
+              "css=[data-test=\"login-credentials\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=login_credentials",
+              "id"
+            ],
+            [
+              "xpath=//div[@id='login_credentials']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div[2]/div/div[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div[2]/div/div[1]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "2b3f506f-e6ec-4549-bf68-e07b23bb5ee4",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "css=[data-test=\"login-credentials\"]",
+          "targets": [
+            [
+              "css=[data-test=\"login-credentials\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=login_credentials",
+              "id"
+            ],
+            [
+              "xpath=//div[@id='login_credentials']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div[2]/div/div[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div[2]/div/div[1]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "2326c626-f1ba-41f0-a1a9-edb4073a68af",
+          "comment": "",
+          "command": "type",
+          "target": "css=[data-test=\"username\"]",
+          "targets": [
+            [
+              "css=[data-test=\"username\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=user-name",
+              "id"
+            ],
+            [
+              "name=user-name",
+              "name"
+            ],
+            [
+              "css=#user-name",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='user-name']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='login_button_container']/div/form/div[1]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": "standard_user"
+        },
+        {
+          "id": "4e805b49-5bb8-4e77-b289-a5a7289a34a3",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "css=[data-test=\"login-password\"]",
+          "targets": [
+            [
+              "css=[data-test=\"login-password\"]",
+              "css:data-test-id"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "74088656-3a42-4222-90be-59a83ee0f60d",
+          "comment": "",
+          "command": "type",
+          "target": "css=[data-test=\"password\"]",
+          "targets": [
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=password",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#password",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='password']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='login_button_container']/div/form/div[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "secret_sauce"
+        },
+        {
+          "id": "2d238f08-0ef8-4d26-bfed-8cde098c5e81",
+          "comment": "",
+          "command": "sendKeys",
+          "target": "css=[data-test=\"password\"]",
+          "targets": [
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=password",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#password",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='password']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='login_button_container']/div/form/div[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "${KEY_ENTER}"
+        },
+        {
+          "id": "f754af1e-92d0-4d68-92c3-70c1615a7278",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"login-button\"]",
+          "targets": [
+            [
+              "css=[data-test=\"login-button\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=login-button",
+              "id"
+            ],
+            [
+              "name=login-button",
+              "name"
+            ],
+            [
+              "xpath=//input[@value='Login']",
+              "xpath:buttonText"
+            ],
+            [
+              "css=#login-button",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='login-button']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='login_button_container']/div/form/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//form/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f13df930-d235-4f24-bbf0-97a774c5e5c7",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"add-to-cart-sauce-labs-backpack\"]",
+          "targets": [
+            [
+              "css=[data-test=\"add-to-cart-sauce-labs-backpack\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=add-to-cart-sauce-labs-backpack",
+              "id"
+            ],
+            [
+              "name=add-to-cart-sauce-labs-backpack",
+              "name"
+            ],
+            [
+              "css=div:nth-of-type(1) > [data-test=\"inventory-item-description\"] .btn",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@id='add-to-cart-sauce-labs-backpack']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='inventory_container']/div/div[1]/div[2]/div[2]/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[normalize-space()='Add to cart']",
+              "xpath:buttonText"
+            ],
+            [
+              "xpath=//div[2]/button",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Add to cart')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "cd0f5cbf-6de0-4bd7-8cdc-a771442d1df1",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"shopping-cart-link\"]",
+          "targets": [
+            [
+              "css=[data-test=\"shopping-cart-link\"]",
+              "css:data-test-id"
+            ],
+            [
+              "linkText=1",
+              "linkText"
+            ],
+            [
+              "xpath=//div[@id='shopping_cart_container']/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/a",
+              "xpath:position"
+            ],
+            [
+              "xpath=//a[contains(.,'1')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "2c090fd2-f426-445b-805c-b9766e09d38d",
+          "comment": "",
+          "command": "click",
+          "target": "id=react-burger-menu-btn",
+          "targets": [
+            [
+              "id=react-burger-menu-btn",
+              "id"
+            ],
+            [
+              "xpath=//button[normalize-space()='Open Menu']",
+              "xpath:buttonText"
+            ],
+            [
+              "css=#react-burger-menu-btn",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@id='react-burger-menu-btn']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='menu_button_container']/div/div[1]/div/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Open Menu')]",
+              "xpath:innerText"
+            ],
+            [
+              "xpath=//button",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "aad82403-ef2d-4429-80c8-611751fb5511",
+          "comment": "",
+          "command": "click",
+          "target": "id=login_button_container",
+          "targets": [
+            [
+              "id=login_button_container",
+              "id"
+            ],
+            [
+              "css=[data-test=\"login-container\"] > div:nth-of-type(1) > div",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='login_button_container']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div[1]/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div[1]/div",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b1f00d68-8908-42c8-9020-7664d95ea4f7",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"login-credentials\"]",
+          "targets": [
+            [
+              "css=[data-test=\"login-credentials\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=login_credentials",
+              "id"
+            ],
+            [
+              "xpath=//div[@id='login_credentials']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div[2]/div/div[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div[2]/div/div[1]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "460893cf-5464-4945-9f13-5643b98a443b",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"login-credentials\"]",
+          "targets": [
+            [
+              "css=[data-test=\"login-credentials\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=login_credentials",
+              "id"
+            ],
+            [
+              "xpath=//div[@id='login_credentials']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div[2]/div/div[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div[2]/div/div[1]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b1ca09ea-9a9a-43ee-a1c6-ddea9c8129fd",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "css=[data-test=\"login-credentials\"]",
+          "targets": [
+            [
+              "css=[data-test=\"login-credentials\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=login_credentials",
+              "id"
+            ],
+            [
+              "xpath=//div[@id='login_credentials']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div[2]/div/div[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div[2]/div/div[1]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "bc317245-faa4-4ffb-84d8-3e7778a65cae",
+          "comment": "",
+          "command": "type",
+          "target": "css=[data-test=\"username\"]",
+          "targets": [
+            [
+              "css=[data-test=\"username\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=user-name",
+              "id"
+            ],
+            [
+              "name=user-name",
+              "name"
+            ],
+            [
+              "css=#user-name",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='user-name']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='login_button_container']/div/form/div[1]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": "standard_user"
+        },
+        {
+          "id": "be7f4b91-3ff9-47a3-9203-8484b81632dd",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"password\"]",
+          "targets": [
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=password",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#password",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='password']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='login_button_container']/div/form/div[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f88336ff-bd13-4acf-be3e-68ef4b8c9ffb",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"login-password\"]",
+          "targets": [
+            [
+              "css=[data-test=\"login-password\"]",
+              "css:data-test-id"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "75713deb-1e14-4241-bf3b-400509f0c026",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "css=[data-test=\"login-password\"]",
+          "targets": [
+            [
+              "css=[data-test=\"login-password\"]",
+              "css:data-test-id"
+            ],
+            [
+              "xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f388986a-b862-4800-9cb6-fd750c049542",
+          "comment": "",
+          "command": "type",
+          "target": "css=[data-test=\"password\"]",
+          "targets": [
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=password",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#password",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='password']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='login_button_container']/div/form/div[2]/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "secret_sauce"
+        },
+        {
+          "id": "45fbe79e-5776-48bb-a2ce-4e6217f6f140",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"login-button\"]",
+          "targets": [
+            [
+              "css=[data-test=\"login-button\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=login-button",
+              "id"
+            ],
+            [
+              "name=login-button",
+              "name"
+            ],
+            [
+              "xpath=//input[@value='Login']",
+              "xpath:buttonText"
+            ],
+            [
+              "css=#login-button",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='login-button']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='login_button_container']/div/form/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//form/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "95c7ce24-2a94-4a55-a612-6adbd73c2564",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"add-to-cart-sauce-labs-bike-light\"]",
+          "targets": [
+            [
+              "css=[data-test=\"add-to-cart-sauce-labs-bike-light\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=add-to-cart-sauce-labs-bike-light",
+              "id"
+            ],
+            [
+              "name=add-to-cart-sauce-labs-bike-light",
+              "name"
+            ],
+            [
+              "css=div:nth-of-type(2) > [data-test=\"inventory-item-description\"] .btn",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@id='add-to-cart-sauce-labs-bike-light']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='inventory_container']/div/div[2]/div[2]/div[2]/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div[2]/div[2]/button",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[normalize-space()='Add to cart']",
+              "xpath:buttonText"
+            ],
+            [
+              "xpath=//button[contains(.,'Add to cart')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "aba3632c-5607-46c6-8b9b-829173cd1911",
+          "comment": "",
+          "command": "click",
+          "target": "css=div:nth-of-type(2) > [data-test=\"inventory-item-description\"]",
+          "targets": [
+            [
+              "css=div:nth-of-type(2) > [data-test=\"inventory-item-description\"]",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='inventory_container']/div/div[2]/div[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//body/div/div/div/div/div/div/div/div[2]/div[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "98bca3bc-bdc7-4e89-b164-81c6ef5df8e1",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"secondary-header\"]",
+          "targets": [
+            [
+              "css=[data-test=\"secondary-header\"]",
+              "css:data-test-id"
+            ],
+            [
+              "xpath=//header[@id='header_container']/div[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//header/div[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "6c102ef7-343f-4957-8304-2d3dff132960",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"shopping-cart-link\"]",
+          "targets": [
+            [
+              "css=[data-test=\"shopping-cart-link\"]",
+              "css:data-test-id"
+            ],
+            [
+              "linkText=2",
+              "linkText"
+            ],
+            [
+              "xpath=//div[@id='shopping_cart_container']/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/a",
+              "xpath:position"
+            ],
+            [
+              "xpath=//a[contains(.,'2')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "eca55fd9-326d-414c-ad8f-5c65848bbb5d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"remove-sauce-labs-backpack\"]",
+          "targets": [
+            [
+              "css=[data-test=\"remove-sauce-labs-backpack\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=remove-sauce-labs-backpack",
+              "id"
+            ],
+            [
+              "name=remove-sauce-labs-backpack",
+              "name"
+            ],
+            [
+              "css=#remove-sauce-labs-backpack",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@id='remove-sauce-labs-backpack']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='cart_contents_container']/div/div[1]/div[3]/div[2]/div[2]/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[normalize-space()='Remove']",
+              "xpath:buttonText"
+            ],
+            [
+              "xpath=//div[2]/button",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Remove')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ef563605-935b-425c-b885-381122036e92",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"inventory-item\"]",
+          "targets": [
+            [
+              "css=[data-test=\"inventory-item\"]",
+              "css:data-test-id"
+            ],
+            [
+              "xpath=//div[@id='cart_contents_container']/div/div[1]/div[4]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "98f74665-dc22-44d8-981a-b2d03c29ea93",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-test=\"remove-sauce-labs-bike-light\"]",
+          "targets": [
+            [
+              "css=[data-test=\"remove-sauce-labs-bike-light\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=remove-sauce-labs-bike-light",
+              "id"
+            ],
+            [
+              "name=remove-sauce-labs-bike-light",
+              "name"
+            ],
+            [
+              "xpath=//button[normalize-space()='Remove']",
+              "xpath:buttonText"
+            ],
+            [
+              "css=#remove-sauce-labs-bike-light",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@id='remove-sauce-labs-bike-light']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='cart_contents_container']/div/div[1]/div[4]/div[2]/div[2]/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Remove')]",
+              "xpath:innerText"
+            ],
+            [
+              "xpath=//div[2]/button",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "f0a4a460-3bf8-4754-b65c-b8e3b8cddc79",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "e2780b2c-1da0-4e5f-926d-e62355ffc433"
+      ]
+    }
+  ],
+  "urls": [
+    "https://www.saucedemo.com/"
+  ],
+  "plugins": []
+}
